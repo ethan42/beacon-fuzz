@@ -18,6 +18,7 @@ env:
   MSG1_MAYHEMFILE: Mayhem/fuzz_milagro_serde_g1.mayhemfile
   MSG2_MAYHEMFILE: Mayhem/fuzz_milagro_serde_g2.mayhemfile
 
+
 jobs:
   build:
     name: ${{ matrix.os }} shared=${{ matrix.shared }} ${{ matrix.build_type }}
